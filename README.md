@@ -30,7 +30,7 @@ services:
   phpmyadmin:
     depends_on:
       - db
-    image: phpmyadmin/phpmyadmin
+    image: phpmyadmin:latest
     ports:
       - 8001:80
     environment:
